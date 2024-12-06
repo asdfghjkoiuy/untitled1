@@ -1,0 +1,14 @@
+{
+    "files.associations": {
+        "ostream": "cpp",
+        "vector": "cpp",
+        "qapplication": "cpp",
+        "qtwidgets": "cpp",
+        "qwidget": "cpp",
+        "qtablewidget": "cpp",
+        "new": "cpp",
+        "qmainwindow": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "disabled",
+    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools"
+}

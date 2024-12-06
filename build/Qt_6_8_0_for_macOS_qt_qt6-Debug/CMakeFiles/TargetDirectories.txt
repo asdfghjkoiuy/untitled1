@@ -1,0 +1,9 @@
+/Users/guanhao/VSCodeAlgorithmTrain/Qt/untitled1/build/Qt_6_8_0_for_macOS_qt_qt6-Debug/CMakeFiles/untitled1.dir
+/Users/guanhao/VSCodeAlgorithmTrain/Qt/untitled1/build/Qt_6_8_0_for_macOS_qt_qt6-Debug/CMakeFiles/edit_cache.dir
+/Users/guanhao/VSCodeAlgorithmTrain/Qt/untitled1/build/Qt_6_8_0_for_macOS_qt_qt6-Debug/CMakeFiles/rebuild_cache.dir
+/Users/guanhao/VSCodeAlgorithmTrain/Qt/untitled1/build/Qt_6_8_0_for_macOS_qt_qt6-Debug/CMakeFiles/list_install_components.dir
+/Users/guanhao/VSCodeAlgorithmTrain/Qt/untitled1/build/Qt_6_8_0_for_macOS_qt_qt6-Debug/CMakeFiles/install.dir
+/Users/guanhao/VSCodeAlgorithmTrain/Qt/untitled1/build/Qt_6_8_0_for_macOS_qt_qt6-Debug/CMakeFiles/install/local.dir
+/Users/guanhao/VSCodeAlgorithmTrain/Qt/untitled1/build/Qt_6_8_0_for_macOS_qt_qt6-Debug/CMakeFiles/install/strip.dir
+/Users/guanhao/VSCodeAlgorithmTrain/Qt/untitled1/build/Qt_6_8_0_for_macOS_qt_qt6-Debug/CMakeFiles/untitled1_autogen_timestamp_deps.dir
+/Users/guanhao/VSCodeAlgorithmTrain/Qt/untitled1/build/Qt_6_8_0_for_macOS_qt_qt6-Debug/CMakeFiles/untitled1_autogen.dir
