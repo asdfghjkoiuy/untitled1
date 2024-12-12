@@ -97,7 +97,7 @@
                 "amd64_x86",
                 "amd64_arm",
             ],
-            "default": "amd64"
+            "default": "arm64_arm"
         },
         {
             "id": "vcvars_ver",

@@ -83,6 +83,14 @@ build CMakeFiles/untitled1.dir/RelWithDebInfo/addstudent.cpp.o: CXX_COMPILER__un
   OBJECT_DIR = CMakeFiles/untitled1.dir/RelWithDebInfo
   OBJECT_FILE_DIR = CMakeFiles/untitled1.dir/RelWithDebInfo
 
+build CMakeFiles/untitled1.dir/RelWithDebInfo/readcsv.cpp.o: CXX_COMPILER__untitled1_unscanned_RelWithDebInfo /Users/guanhao/VSCodeAlgorithmTrain/Qt/untitled1/readcsv.cpp || cmake_object_order_depends_target_untitled1_RELWITHDEBINFO
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DCMAKE_INTDIR=\"RelWithDebInfo\"
+  DEP_FILE = CMakeFiles/untitled1.dir/RelWithDebInfo/readcsv.cpp.o.d
+  FLAGS = -O2 -g -DNDEBUG -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=12.0
+  INCLUDES = -I/Users/guanhao/VSCodeAlgorithmTrain/Qt/untitled1/build/untitled1_autogen/include_RelWithDebInfo -isystem /Users/guanhao/Qt/6.8.0/macos/lib/QtCore.framework/Headers -iframework /Users/guanhao/Qt/6.8.0/macos/lib -isystem /Users/guanhao/Qt/6.8.0/macos/mkspecs/macx-clang -isystem /Users/guanhao/Qt/6.8.0/macos/include -isystem /Users/guanhao/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers -isystem /Users/guanhao/Qt/6.8.0/macos/lib/QtGui.framework/Headers
+  OBJECT_DIR = CMakeFiles/untitled1.dir/RelWithDebInfo
+  OBJECT_FILE_DIR = CMakeFiles/untitled1.dir/RelWithDebInfo
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target untitled1
@@ -91,7 +99,7 @@ build CMakeFiles/untitled1.dir/RelWithDebInfo/addstudent.cpp.o: CXX_COMPILER__un
 #############################################
 # Link the executable RelWithDebInfo/untitled1.app/Contents/MacOS/untitled1
 
-build RelWithDebInfo/untitled1.app/Contents/MacOS/untitled1: CXX_EXECUTABLE_LINKER__untitled1_RelWithDebInfo CMakeFiles/untitled1.dir/RelWithDebInfo/untitled1_autogen/mocs_compilation_RelWithDebInfo.cpp.o CMakeFiles/untitled1.dir/RelWithDebInfo/main.cpp.o CMakeFiles/untitled1.dir/RelWithDebInfo/mainwindow.cpp.o CMakeFiles/untitled1.dir/RelWithDebInfo/student.cpp.o CMakeFiles/untitled1.dir/RelWithDebInfo/addstudent.cpp.o | /Users/guanhao/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/QtWidgets /Users/guanhao/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/QtGui /Users/guanhao/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/QtCore || untitled1_autogen$:RelWithDebInfo
+build RelWithDebInfo/untitled1.app/Contents/MacOS/untitled1: CXX_EXECUTABLE_LINKER__untitled1_RelWithDebInfo CMakeFiles/untitled1.dir/RelWithDebInfo/untitled1_autogen/mocs_compilation_RelWithDebInfo.cpp.o CMakeFiles/untitled1.dir/RelWithDebInfo/main.cpp.o CMakeFiles/untitled1.dir/RelWithDebInfo/mainwindow.cpp.o CMakeFiles/untitled1.dir/RelWithDebInfo/student.cpp.o CMakeFiles/untitled1.dir/RelWithDebInfo/addstudent.cpp.o CMakeFiles/untitled1.dir/RelWithDebInfo/readcsv.cpp.o | /Users/guanhao/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/QtWidgets /Users/guanhao/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/QtGui /Users/guanhao/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/QtCore || untitled1_autogen$:RelWithDebInfo
   FLAGS = -O2 -g -DNDEBUG -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=12.0
   LINK_LIBRARIES = -Wl,-rpath,/Users/guanhao/Qt/6.8.0/macos/lib  /Users/guanhao/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/QtWidgets  /Users/guanhao/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/QtGui  -framework OpenGL  -framework AGL  -framework AppKit  -framework ImageIO  -framework Metal  /Users/guanhao/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/QtCore  -framework IOKit  -framework DiskArbitration  -framework UniformTypeIdentifiers
   LINK_PATH = -F/Users/guanhao/Qt/6.8.0/macos/lib

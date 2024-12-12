@@ -26,6 +26,7 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         ${PROJECT_SOURCES}
         student.h student.cpp
         addstudent.h addstudent.cpp addstudent.ui
+        readcsv.h readcsv.cpp
 
 
     )

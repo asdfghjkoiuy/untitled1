@@ -1227,6 +1227,8 @@ untitled1_autogen/timestamp_Debug: \
 	/Users/guanhao/VSCodeAlgorithmTrain/Qt/untitled1/main.cpp \
 	/Users/guanhao/VSCodeAlgorithmTrain/Qt/untitled1/mainwindow.cpp \
 	/Users/guanhao/VSCodeAlgorithmTrain/Qt/untitled1/mainwindow.h \
+	/Users/guanhao/VSCodeAlgorithmTrain/Qt/untitled1/readcsv.cpp \
+	/Users/guanhao/VSCodeAlgorithmTrain/Qt/untitled1/readcsv.h \
 	/Users/guanhao/VSCodeAlgorithmTrain/Qt/untitled1/student.cpp \
 	/Users/guanhao/VSCodeAlgorithmTrain/Qt/untitled1/student.h \
 	/opt/homebrew/Cellar/cmake/3.29.5/share/cmake/Modules/CMakeCXXInformation.cmake \

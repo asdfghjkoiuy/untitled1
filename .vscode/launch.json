@@ -5,32 +5,30 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Launch Debug",
+            "name": "Debug Qt Application with lldb",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/build/Debug/untitled1.app",
-            "args": [],
+            "program": "${command:cmake.launchTargetPath}",
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
-            "environment": [],
-            "externalConsole": false,
+            "visualizerFile": "/Users/guanhao/Library/Application Support/Code/User/workspaceStorage/4f70807439d7b3d32a4bff90552cd71f/tonka3000.qtvsctools/qt.natvis.xml",
+            "showDisplayString": true,
+            "linux": {
+                "MIMode": "lldb",
+                "miDebuggerPath": "/usr/bin/lldb"
+            },
             "osx": {
                 "MIMode": "lldb"
             },
-            "linux": {
-                "MIMode": "gdb",
-                "setupCommands": [
-                    {
-                        "description": "Enable pretty-printing for gdb",
-                        "text": "-enable-pretty-printing",
-                        "ignoreFailures": true
-                    }
-                ]
-            },
             "windows": {
-                "program": "${workspaceFolder}/build/${workspaceFolderBasename}"
-            },
-            "visualizerFile": "/Users/guanhao/Library/Application Support/Code/User/workspaceStorage/d52947c2698b33ee7e3a9253e4c1876e/tonka3000.qtvsctools/qt.natvis.xml"
+                "environment": [
+                    {
+                        "name": "PATH",
+                        "value": "${env:PATH};${command:qt-cpp.kitDirectory}${/}bin"
+                    }
+                ],
+                "MIMode": "lldb"
+            }
         }
     ]
 }
