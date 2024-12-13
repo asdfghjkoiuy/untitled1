@@ -1,0 +1,8 @@
+/Users/guanhao/VSCodeAlgorithmTrain/Qt/untitled1/build/CMakeFiles/untitled1.dir
+/Users/guanhao/VSCodeAlgorithmTrain/Qt/untitled1/build/CMakeFiles/edit_cache.dir
+/Users/guanhao/VSCodeAlgorithmTrain/Qt/untitled1/build/CMakeFiles/rebuild_cache.dir
+/Users/guanhao/VSCodeAlgorithmTrain/Qt/untitled1/build/CMakeFiles/install.dir
+/Users/guanhao/VSCodeAlgorithmTrain/Qt/untitled1/build/CMakeFiles/install/local.dir
+/Users/guanhao/VSCodeAlgorithmTrain/Qt/untitled1/build/CMakeFiles/install/strip.dir
+/Users/guanhao/VSCodeAlgorithmTrain/Qt/untitled1/build/CMakeFiles/untitled1_autogen_timestamp_deps.dir
+/Users/guanhao/VSCodeAlgorithmTrain/Qt/untitled1/build/CMakeFiles/untitled1_autogen.dir

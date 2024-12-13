@@ -3,6 +3,8 @@
 
 #include "mainwindow.h"
 
+
+
 addStudent::addStudent(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::addStudent)

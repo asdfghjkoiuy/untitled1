@@ -12,6 +12,16 @@
 #include <QTableWidget>
 #include <QTableWidgetItem>
 
+#include <QStringList>
+#include <QFile>
+#include <QTextStream>
+#include <QDebug>
+
+#include <QString>
+
+
+
+
 QT_BEGIN_NAMESPACE
 namespace Ui {
 class MainWindow;
@@ -27,7 +37,6 @@ class MainWindow : public QMainWindow
 public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
-    void deleteaddui();
 
 
 private slots:
@@ -40,14 +49,17 @@ void on_searchEdit_editingFinished();
 void on_actionNew_File_triggered();         //新的文件
 void on_actionOpen_File_triggered();        //打开文件
 void on_actionSave_Current_File_triggered();    //保存当前文件
+void on_saveButton_clicked();
+void on_openButton_clicked();
+
 
 
 private:
     Ui::MainWindow *ui;
 
     addStudent *add_ui=nullptr;
-
     QTableWidget *tableWidget;
+
 
 };
 #endif // MAINWINDOW_H

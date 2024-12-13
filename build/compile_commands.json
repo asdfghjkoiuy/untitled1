@@ -1,0 +1,74 @@
+[
+{
+  "directory": "/Users/guanhao/VSCodeAlgorithmTrain/Qt/untitled1/build",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DCMAKE_INTDIR=\\\"Debug\\\" -I/Users/guanhao/VSCodeAlgorithmTrain/Qt/untitled1/build/untitled1_autogen/include_Debug -isystem /Users/guanhao/Qt/6.8.0/macos/lib/QtCore.framework/Headers -iframework /Users/guanhao/Qt/6.8.0/macos/lib -isystem /Users/guanhao/Qt/6.8.0/macos/mkspecs/macx-clang -isystem /Users/guanhao/Qt/6.8.0/macos/include -isystem /Users/guanhao/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers -isystem /Users/guanhao/Qt/6.8.0/macos/lib/QtGui.framework/Headers -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=12.0 -o CMakeFiles/untitled1.dir/Debug/untitled1_autogen/mocs_compilation_Debug.cpp.o -c /Users/guanhao/VSCodeAlgorithmTrain/Qt/untitled1/build/untitled1_autogen/mocs_compilation_Debug.cpp",
+  "file": "/Users/guanhao/VSCodeAlgorithmTrain/Qt/untitled1/build/untitled1_autogen/mocs_compilation_Debug.cpp",
+  "output": "CMakeFiles/untitled1.dir/Debug/untitled1_autogen/mocs_compilation_Debug.cpp.o"
+},
+{
+  "directory": "/Users/guanhao/VSCodeAlgorithmTrain/Qt/untitled1/build",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DCMAKE_INTDIR=\\\"Debug\\\" -I/Users/guanhao/VSCodeAlgorithmTrain/Qt/untitled1/build/untitled1_autogen/include_Debug -isystem /Users/guanhao/Qt/6.8.0/macos/lib/QtCore.framework/Headers -iframework /Users/guanhao/Qt/6.8.0/macos/lib -isystem /Users/guanhao/Qt/6.8.0/macos/mkspecs/macx-clang -isystem /Users/guanhao/Qt/6.8.0/macos/include -isystem /Users/guanhao/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers -isystem /Users/guanhao/Qt/6.8.0/macos/lib/QtGui.framework/Headers -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=12.0 -o CMakeFiles/untitled1.dir/Debug/main.cpp.o -c /Users/guanhao/VSCodeAlgorithmTrain/Qt/untitled1/main.cpp",
+  "file": "/Users/guanhao/VSCodeAlgorithmTrain/Qt/untitled1/main.cpp",
+  "output": "CMakeFiles/untitled1.dir/Debug/main.cpp.o"
+},
+{
+  "directory": "/Users/guanhao/VSCodeAlgorithmTrain/Qt/untitled1/build",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DCMAKE_INTDIR=\\\"Debug\\\" -I/Users/guanhao/VSCodeAlgorithmTrain/Qt/untitled1/build/untitled1_autogen/include_Debug -isystem /Users/guanhao/Qt/6.8.0/macos/lib/QtCore.framework/Headers -iframework /Users/guanhao/Qt/6.8.0/macos/lib -isystem /Users/guanhao/Qt/6.8.0/macos/mkspecs/macx-clang -isystem /Users/guanhao/Qt/6.8.0/macos/include -isystem /Users/guanhao/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers -isystem /Users/guanhao/Qt/6.8.0/macos/lib/QtGui.framework/Headers -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=12.0 -o CMakeFiles/untitled1.dir/Debug/mainwindow.cpp.o -c /Users/guanhao/VSCodeAlgorithmTrain/Qt/untitled1/mainwindow.cpp",
+  "file": "/Users/guanhao/VSCodeAlgorithmTrain/Qt/untitled1/mainwindow.cpp",
+  "output": "CMakeFiles/untitled1.dir/Debug/mainwindow.cpp.o"
+},
+{
+  "directory": "/Users/guanhao/VSCodeAlgorithmTrain/Qt/untitled1/build",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DCMAKE_INTDIR=\\\"Debug\\\" -I/Users/guanhao/VSCodeAlgorithmTrain/Qt/untitled1/build/untitled1_autogen/include_Debug -isystem /Users/guanhao/Qt/6.8.0/macos/lib/QtCore.framework/Headers -iframework /Users/guanhao/Qt/6.8.0/macos/lib -isystem /Users/guanhao/Qt/6.8.0/macos/mkspecs/macx-clang -isystem /Users/guanhao/Qt/6.8.0/macos/include -isystem /Users/guanhao/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers -isystem /Users/guanhao/Qt/6.8.0/macos/lib/QtGui.framework/Headers -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=12.0 -o CMakeFiles/untitled1.dir/Debug/addstudent.cpp.o -c /Users/guanhao/VSCodeAlgorithmTrain/Qt/untitled1/addstudent.cpp",
+  "file": "/Users/guanhao/VSCodeAlgorithmTrain/Qt/untitled1/addstudent.cpp",
+  "output": "CMakeFiles/untitled1.dir/Debug/addstudent.cpp.o"
+},
+{
+  "directory": "/Users/guanhao/VSCodeAlgorithmTrain/Qt/untitled1/build",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DCMAKE_INTDIR=\\\"Release\\\" -I/Users/guanhao/VSCodeAlgorithmTrain/Qt/untitled1/build/untitled1_autogen/include_Release -isystem /Users/guanhao/Qt/6.8.0/macos/lib/QtCore.framework/Headers -iframework /Users/guanhao/Qt/6.8.0/macos/lib -isystem /Users/guanhao/Qt/6.8.0/macos/mkspecs/macx-clang -isystem /Users/guanhao/Qt/6.8.0/macos/include -isystem /Users/guanhao/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers -isystem /Users/guanhao/Qt/6.8.0/macos/lib/QtGui.framework/Headers -O3 -DNDEBUG -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=12.0 -o CMakeFiles/untitled1.dir/Release/untitled1_autogen/mocs_compilation_Release.cpp.o -c /Users/guanhao/VSCodeAlgorithmTrain/Qt/untitled1/build/untitled1_autogen/mocs_compilation_Release.cpp",
+  "file": "/Users/guanhao/VSCodeAlgorithmTrain/Qt/untitled1/build/untitled1_autogen/mocs_compilation_Release.cpp",
+  "output": "CMakeFiles/untitled1.dir/Release/untitled1_autogen/mocs_compilation_Release.cpp.o"
+},
+{
+  "directory": "/Users/guanhao/VSCodeAlgorithmTrain/Qt/untitled1/build",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DCMAKE_INTDIR=\\\"Release\\\" -I/Users/guanhao/VSCodeAlgorithmTrain/Qt/untitled1/build/untitled1_autogen/include_Release -isystem /Users/guanhao/Qt/6.8.0/macos/lib/QtCore.framework/Headers -iframework /Users/guanhao/Qt/6.8.0/macos/lib -isystem /Users/guanhao/Qt/6.8.0/macos/mkspecs/macx-clang -isystem /Users/guanhao/Qt/6.8.0/macos/include -isystem /Users/guanhao/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers -isystem /Users/guanhao/Qt/6.8.0/macos/lib/QtGui.framework/Headers -O3 -DNDEBUG -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=12.0 -o CMakeFiles/untitled1.dir/Release/main.cpp.o -c /Users/guanhao/VSCodeAlgorithmTrain/Qt/untitled1/main.cpp",
+  "file": "/Users/guanhao/VSCodeAlgorithmTrain/Qt/untitled1/main.cpp",
+  "output": "CMakeFiles/untitled1.dir/Release/main.cpp.o"
+},
+{
+  "directory": "/Users/guanhao/VSCodeAlgorithmTrain/Qt/untitled1/build",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DCMAKE_INTDIR=\\\"Release\\\" -I/Users/guanhao/VSCodeAlgorithmTrain/Qt/untitled1/build/untitled1_autogen/include_Release -isystem /Users/guanhao/Qt/6.8.0/macos/lib/QtCore.framework/Headers -iframework /Users/guanhao/Qt/6.8.0/macos/lib -isystem /Users/guanhao/Qt/6.8.0/macos/mkspecs/macx-clang -isystem /Users/guanhao/Qt/6.8.0/macos/include -isystem /Users/guanhao/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers -isystem /Users/guanhao/Qt/6.8.0/macos/lib/QtGui.framework/Headers -O3 -DNDEBUG -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=12.0 -o CMakeFiles/untitled1.dir/Release/mainwindow.cpp.o -c /Users/guanhao/VSCodeAlgorithmTrain/Qt/untitled1/mainwindow.cpp",
+  "file": "/Users/guanhao/VSCodeAlgorithmTrain/Qt/untitled1/mainwindow.cpp",
+  "output": "CMakeFiles/untitled1.dir/Release/mainwindow.cpp.o"
+},
+{
+  "directory": "/Users/guanhao/VSCodeAlgorithmTrain/Qt/untitled1/build",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DCMAKE_INTDIR=\\\"Release\\\" -I/Users/guanhao/VSCodeAlgorithmTrain/Qt/untitled1/build/untitled1_autogen/include_Release -isystem /Users/guanhao/Qt/6.8.0/macos/lib/QtCore.framework/Headers -iframework /Users/guanhao/Qt/6.8.0/macos/lib -isystem /Users/guanhao/Qt/6.8.0/macos/mkspecs/macx-clang -isystem /Users/guanhao/Qt/6.8.0/macos/include -isystem /Users/guanhao/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers -isystem /Users/guanhao/Qt/6.8.0/macos/lib/QtGui.framework/Headers -O3 -DNDEBUG -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=12.0 -o CMakeFiles/untitled1.dir/Release/addstudent.cpp.o -c /Users/guanhao/VSCodeAlgorithmTrain/Qt/untitled1/addstudent.cpp",
+  "file": "/Users/guanhao/VSCodeAlgorithmTrain/Qt/untitled1/addstudent.cpp",
+  "output": "CMakeFiles/untitled1.dir/Release/addstudent.cpp.o"
+},
+{
+  "directory": "/Users/guanhao/VSCodeAlgorithmTrain/Qt/untitled1/build",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DCMAKE_INTDIR=\\\"RelWithDebInfo\\\" -I/Users/guanhao/VSCodeAlgorithmTrain/Qt/untitled1/build/untitled1_autogen/include_RelWithDebInfo -isystem /Users/guanhao/Qt/6.8.0/macos/lib/QtCore.framework/Headers -iframework /Users/guanhao/Qt/6.8.0/macos/lib -isystem /Users/guanhao/Qt/6.8.0/macos/mkspecs/macx-clang -isystem /Users/guanhao/Qt/6.8.0/macos/include -isystem /Users/guanhao/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers -isystem /Users/guanhao/Qt/6.8.0/macos/lib/QtGui.framework/Headers -O2 -g -DNDEBUG -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=12.0 -o CMakeFiles/untitled1.dir/RelWithDebInfo/untitled1_autogen/mocs_compilation_RelWithDebInfo.cpp.o -c /Users/guanhao/VSCodeAlgorithmTrain/Qt/untitled1/build/untitled1_autogen/mocs_compilation_RelWithDebInfo.cpp",
+  "file": "/Users/guanhao/VSCodeAlgorithmTrain/Qt/untitled1/build/untitled1_autogen/mocs_compilation_RelWithDebInfo.cpp",
+  "output": "CMakeFiles/untitled1.dir/RelWithDebInfo/untitled1_autogen/mocs_compilation_RelWithDebInfo.cpp.o"
+},
+{
+  "directory": "/Users/guanhao/VSCodeAlgorithmTrain/Qt/untitled1/build",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DCMAKE_INTDIR=\\\"RelWithDebInfo\\\" -I/Users/guanhao/VSCodeAlgorithmTrain/Qt/untitled1/build/untitled1_autogen/include_RelWithDebInfo -isystem /Users/guanhao/Qt/6.8.0/macos/lib/QtCore.framework/Headers -iframework /Users/guanhao/Qt/6.8.0/macos/lib -isystem /Users/guanhao/Qt/6.8.0/macos/mkspecs/macx-clang -isystem /Users/guanhao/Qt/6.8.0/macos/include -isystem /Users/guanhao/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers -isystem /Users/guanhao/Qt/6.8.0/macos/lib/QtGui.framework/Headers -O2 -g -DNDEBUG -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=12.0 -o CMakeFiles/untitled1.dir/RelWithDebInfo/main.cpp.o -c /Users/guanhao/VSCodeAlgorithmTrain/Qt/untitled1/main.cpp",
+  "file": "/Users/guanhao/VSCodeAlgorithmTrain/Qt/untitled1/main.cpp",
+  "output": "CMakeFiles/untitled1.dir/RelWithDebInfo/main.cpp.o"
+},
+{
+  "directory": "/Users/guanhao/VSCodeAlgorithmTrain/Qt/untitled1/build",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DCMAKE_INTDIR=\\\"RelWithDebInfo\\\" -I/Users/guanhao/VSCodeAlgorithmTrain/Qt/untitled1/build/untitled1_autogen/include_RelWithDebInfo -isystem /Users/guanhao/Qt/6.8.0/macos/lib/QtCore.framework/Headers -iframework /Users/guanhao/Qt/6.8.0/macos/lib -isystem /Users/guanhao/Qt/6.8.0/macos/mkspecs/macx-clang -isystem /Users/guanhao/Qt/6.8.0/macos/include -isystem /Users/guanhao/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers -isystem /Users/guanhao/Qt/6.8.0/macos/lib/QtGui.framework/Headers -O2 -g -DNDEBUG -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=12.0 -o CMakeFiles/untitled1.dir/RelWithDebInfo/mainwindow.cpp.o -c /Users/guanhao/VSCodeAlgorithmTrain/Qt/untitled1/mainwindow.cpp",
+  "file": "/Users/guanhao/VSCodeAlgorithmTrain/Qt/untitled1/mainwindow.cpp",
+  "output": "CMakeFiles/untitled1.dir/RelWithDebInfo/mainwindow.cpp.o"
+},
+{
+  "directory": "/Users/guanhao/VSCodeAlgorithmTrain/Qt/untitled1/build",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DCMAKE_INTDIR=\\\"RelWithDebInfo\\\" -I/Users/guanhao/VSCodeAlgorithmTrain/Qt/untitled1/build/untitled1_autogen/include_RelWithDebInfo -isystem /Users/guanhao/Qt/6.8.0/macos/lib/QtCore.framework/Headers -iframework /Users/guanhao/Qt/6.8.0/macos/lib -isystem /Users/guanhao/Qt/6.8.0/macos/mkspecs/macx-clang -isystem /Users/guanhao/Qt/6.8.0/macos/include -isystem /Users/guanhao/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers -isystem /Users/guanhao/Qt/6.8.0/macos/lib/QtGui.framework/Headers -O2 -g -DNDEBUG -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=12.0 -o CMakeFiles/untitled1.dir/RelWithDebInfo/addstudent.cpp.o -c /Users/guanhao/VSCodeAlgorithmTrain/Qt/untitled1/addstudent.cpp",
+  "file": "/Users/guanhao/VSCodeAlgorithmTrain/Qt/untitled1/addstudent.cpp",
+  "output": "CMakeFiles/untitled1.dir/RelWithDebInfo/addstudent.cpp.o"
+}
+]
