@@ -5,12 +5,17 @@
             "includePath": [
                 "${default}"
             ],
-            "compilerPath": "/usr/bin/clang",
+            "compilerPath": "/usr/bin/clang++",
             "cStandard": "c17",
             "cppStandard": "c++17",
             "intelliSenseMode": "macos-clang-arm64",
             "compileCommands": "${workspaceFolder}/build/compile_commands.json",
+            "macFrameworkPath": [
+                "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks",
+                "/Users/guanhao/Qt/6.8.0/macos/lib"
+            ],
             "configurationProvider": "ms-vscode.cpptools"
+            
         }
     ],
     "version": 4

@@ -1,5 +1,7 @@
 {
     "files.associations": {
+        "*.cpp": "cpp",
+        "*.c": "c",
         "ostream": "cpp",
         "vector": "cpp",
         "qapplication": "cpp",
@@ -41,7 +43,11 @@
         "string_view": "cpp",
         "tuple": "cpp",
         "typeinfo": "cpp",
-        "variant": "cpp"
+        "variant": "cpp",
+        "qdialog": "cpp",
+        "qfiledialog": "cpp",
+        "qstring": "cpp",
+        "qdebug": "cpp"
     },
     "C_Cpp.errorSquiggles": "disabled",
     "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools"
