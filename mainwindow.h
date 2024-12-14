@@ -51,6 +51,14 @@ void on_actionOpen_File_triggered();        //打开文件
 void on_actionSave_Current_File_triggered();    //保存当前文件
 void on_saveButton_clicked();
 void on_openButton_clicked();
+void on_mathSortButton_clicked();
+void on_cnSortButton_clicked();
+void on_EngSortButton_clicked();
+void on_newButton_clicked();
+void on_numSortButton_clicked();
+
+void receiveDataSlot(QStringList data);
+void receiveCloseSignal(int reason);
 
 
 

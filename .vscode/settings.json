@@ -47,7 +47,13 @@
         "qdialog": "cpp",
         "qfiledialog": "cpp",
         "qstring": "cpp",
-        "qdebug": "cpp"
+        "qdebug": "cpp",
+        "fstream": "cpp",
+        "__hash_table": "cpp",
+        "__tree": "cpp",
+        "list": "cpp",
+        "map": "cpp",
+        "unordered_map": "cpp"
     },
     "C_Cpp.errorSquiggles": "disabled",
     "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools"

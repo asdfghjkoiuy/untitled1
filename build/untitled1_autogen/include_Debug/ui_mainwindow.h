@@ -12,6 +12,7 @@
 #include <QtCore/QVariant>
 #include <QtGui/QAction>
 #include <QtWidgets/QApplication>
+#include <QtWidgets/QGridLayout>
 #include <QtWidgets/QHBoxLayout>
 #include <QtWidgets/QHeaderView>
 #include <QtWidgets/QLineEdit>
@@ -22,7 +23,6 @@
 #include <QtWidgets/QSpacerItem>
 #include <QtWidgets/QStatusBar>
 #include <QtWidgets/QTableWidget>
-#include <QtWidgets/QVBoxLayout>
 #include <QtWidgets/QWidget>
 
 QT_BEGIN_NAMESPACE
@@ -37,7 +37,7 @@ public:
     QAction *action222;
     QAction *action333;
     QWidget *centralwidget;
-    QVBoxLayout *verticalLayout;
+    QGridLayout *gridLayout;
     QWidget *widget;
     QHBoxLayout *horizontalLayout;
     QPushButton *addButton;
@@ -49,9 +49,17 @@ public:
     QWidget *widget_2;
     QHBoxLayout *horizontalLayout_2;
     QTableWidget *tableWidget;
+    QHBoxLayout *horizontalLayout_5;
     QHBoxLayout *horizontalLayout_3;
+    QPushButton *newButton;
     QPushButton *saveButton;
     QPushButton *openButton;
+    QHBoxLayout *horizontalLayout_4;
+    QSpacerItem *horizontalSpacer_2;
+    QPushButton *numSortButton;
+    QPushButton *EngSortButton;
+    QPushButton *mathSortButton;
+    QPushButton *cnSortButton;
     QMenuBar *menubar;
     QMenu *menuFile;
     QStatusBar *statusbar;
@@ -76,8 +84,8 @@ public:
         action333->setObjectName("action333");
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName("centralwidget");
-        verticalLayout = new QVBoxLayout(centralwidget);
-        verticalLayout->setObjectName("verticalLayout");
+        gridLayout = new QGridLayout(centralwidget);
+        gridLayout->setObjectName("gridLayout");
         widget = new QWidget(centralwidget);
         widget->setObjectName("widget");
         widget->setMaximumSize(QSize(1200, 16777215));
@@ -127,7 +135,7 @@ public:
         horizontalLayout->addItem(horizontalSpacer);
 
 
-        verticalLayout->addWidget(widget);
+        gridLayout->addWidget(widget, 0, 0, 1, 1);
 
         widget_2 = new QWidget(centralwidget);
         widget_2->setObjectName("widget_2");
@@ -151,17 +159,29 @@ public:
         horizontalLayout_2->addWidget(tableWidget);
 
 
-        verticalLayout->addWidget(widget_2);
+        gridLayout->addWidget(widget_2, 1, 0, 1, 1);
 
+        horizontalLayout_5 = new QHBoxLayout();
+        horizontalLayout_5->setObjectName("horizontalLayout_5");
         horizontalLayout_3 = new QHBoxLayout();
         horizontalLayout_3->setObjectName("horizontalLayout_3");
-        saveButton = new QPushButton(centralwidget);
-        saveButton->setObjectName("saveButton");
+        newButton = new QPushButton(centralwidget);
+        newButton->setObjectName("newButton");
         QSizePolicy sizePolicy1(QSizePolicy::Policy::Maximum, QSizePolicy::Policy::Fixed);
         sizePolicy1.setHorizontalStretch(0);
         sizePolicy1.setVerticalStretch(0);
+        sizePolicy1.setHeightForWidth(newButton->sizePolicy().hasHeightForWidth());
+        newButton->setSizePolicy(sizePolicy1);
+        newButton->setMinimumSize(QSize(80, 0));
+        newButton->setMaximumSize(QSize(170, 16777215));
+
+        horizontalLayout_3->addWidget(newButton);
+
+        saveButton = new QPushButton(centralwidget);
+        saveButton->setObjectName("saveButton");
         sizePolicy1.setHeightForWidth(saveButton->sizePolicy().hasHeightForWidth());
         saveButton->setSizePolicy(sizePolicy1);
+        saveButton->setMinimumSize(QSize(80, 0));
         saveButton->setMaximumSize(QSize(170, 16777215));
 
         horizontalLayout_3->addWidget(saveButton);
@@ -170,12 +190,57 @@ public:
         openButton->setObjectName("openButton");
         sizePolicy1.setHeightForWidth(openButton->sizePolicy().hasHeightForWidth());
         openButton->setSizePolicy(sizePolicy1);
+        openButton->setMinimumSize(QSize(80, 0));
         openButton->setMaximumSize(QSize(170, 16777215));
 
         horizontalLayout_3->addWidget(openButton);
 
 
-        verticalLayout->addLayout(horizontalLayout_3);
+        horizontalLayout_5->addLayout(horizontalLayout_3);
+
+        horizontalLayout_4 = new QHBoxLayout();
+        horizontalLayout_4->setObjectName("horizontalLayout_4");
+        horizontalSpacer_2 = new QSpacerItem(80, 20, QSizePolicy::Policy::Expanding, QSizePolicy::Policy::Minimum);
+
+        horizontalLayout_4->addItem(horizontalSpacer_2);
+
+        numSortButton = new QPushButton(centralwidget);
+        numSortButton->setObjectName("numSortButton");
+        sizePolicy1.setHeightForWidth(numSortButton->sizePolicy().hasHeightForWidth());
+        numSortButton->setSizePolicy(sizePolicy1);
+        numSortButton->setMinimumSize(QSize(80, 0));
+
+        horizontalLayout_4->addWidget(numSortButton);
+
+        EngSortButton = new QPushButton(centralwidget);
+        EngSortButton->setObjectName("EngSortButton");
+        sizePolicy1.setHeightForWidth(EngSortButton->sizePolicy().hasHeightForWidth());
+        EngSortButton->setSizePolicy(sizePolicy1);
+        EngSortButton->setMinimumSize(QSize(80, 0));
+
+        horizontalLayout_4->addWidget(EngSortButton);
+
+        mathSortButton = new QPushButton(centralwidget);
+        mathSortButton->setObjectName("mathSortButton");
+        sizePolicy1.setHeightForWidth(mathSortButton->sizePolicy().hasHeightForWidth());
+        mathSortButton->setSizePolicy(sizePolicy1);
+        mathSortButton->setMinimumSize(QSize(80, 0));
+
+        horizontalLayout_4->addWidget(mathSortButton);
+
+        cnSortButton = new QPushButton(centralwidget);
+        cnSortButton->setObjectName("cnSortButton");
+        sizePolicy1.setHeightForWidth(cnSortButton->sizePolicy().hasHeightForWidth());
+        cnSortButton->setSizePolicy(sizePolicy1);
+        cnSortButton->setMinimumSize(QSize(80, 0));
+
+        horizontalLayout_4->addWidget(cnSortButton);
+
+
+        horizontalLayout_5->addLayout(horizontalLayout_4);
+
+
+        gridLayout->addLayout(horizontalLayout_5, 2, 0, 1, 1);
 
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
@@ -221,8 +286,13 @@ public:
         alterButton->setText(QCoreApplication::translate("MainWindow", "\344\277\256\346\224\271", nullptr));
         searchEdit->setPlaceholderText(QCoreApplication::translate("MainWindow", "\350\276\223\345\205\245\345\247\223\345\220\215\346\210\226\345\255\246\345\217\267\346\237\245\346\211\276...", nullptr));
         searchButton->setText(QCoreApplication::translate("MainWindow", "\346\237\245\346\211\276", nullptr));
+        newButton->setText(QCoreApplication::translate("MainWindow", "\346\226\260\346\226\207\344\273\266", nullptr));
         saveButton->setText(QCoreApplication::translate("MainWindow", "\345\255\230\345\202\250\346\226\207\344\273\266", nullptr));
         openButton->setText(QCoreApplication::translate("MainWindow", "\346\211\223\345\274\200\346\226\207\344\273\266", nullptr));
+        numSortButton->setText(QCoreApplication::translate("MainWindow", "\345\255\246\345\217\267\346\216\222\345\272\217", nullptr));
+        EngSortButton->setText(QCoreApplication::translate("MainWindow", "\350\213\261\350\257\255\346\216\222\345\272\217", nullptr));
+        mathSortButton->setText(QCoreApplication::translate("MainWindow", "\346\225\260\345\255\246\346\216\222\345\272\217", nullptr));
+        cnSortButton->setText(QCoreApplication::translate("MainWindow", "\350\257\255\346\226\207\346\216\222\345\272\217", nullptr));
         menuFile->setTitle(QCoreApplication::translate("MainWindow", "File", nullptr));
     } // retranslateUi
 

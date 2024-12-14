@@ -10,6 +10,7 @@
 #define UI_ADDSTUDENT_H
 
 #include <QtCore/QVariant>
+#include <QtGui/QAction>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QGridLayout>
 #include <QtWidgets/QHBoxLayout>
@@ -28,20 +29,21 @@ QT_BEGIN_NAMESPACE
 class Ui_addStudent
 {
 public:
+    QAction *actionPreferences;
     QWidget *centralwidget;
     QHBoxLayout *horizontalLayout;
     QWidget *widget;
     QGridLayout *gridLayout;
-    QLineEdit *nameInput;
+    QLineEdit *classInput;
     QLabel *label_5;
     QLabel *label_4;
-    QLineEdit *classInput;
+    QLineEdit *nameInput;
     QSpacerItem *verticalSpacer_2;
     QLabel *label_2;
     QLabel *label_7;
     QSpacerItem *verticalSpacer_4;
     QSpacerItem *verticalSpacer_3;
-    QLineEdit *numInput;
+    QLineEdit *genInput;
     QSpacerItem *verticalSpacer;
     QLineEdit *cnInput;
     QLabel *label_6;
@@ -50,11 +52,11 @@ public:
     QLineEdit *mathInput;
     QSpacerItem *verticalSpacer_5;
     QLabel *label_3;
-    QLineEdit *genderInput;
+    QLineEdit *numInput;
     QSpacerItem *verticalSpacer_6;
     QWidget *widget_2;
     QVBoxLayout *verticalLayout;
-    QSpacerItem *verticalSpacer_7;
+    QWidget *widget_4;
     QWidget *widget_3;
     QHBoxLayout *horizontalLayout_2;
     QPushButton *cancelButton;
@@ -67,6 +69,8 @@ public:
         if (addStudent->objectName().isEmpty())
             addStudent->setObjectName("addStudent");
         addStudent->resize(548, 463);
+        actionPreferences = new QAction(addStudent);
+        actionPreferences->setObjectName("actionPreferences");
         centralwidget = new QWidget(addStudent);
         centralwidget->setObjectName("centralwidget");
         centralwidget->setEnabled(true);
@@ -76,12 +80,12 @@ public:
         widget->setObjectName("widget");
         gridLayout = new QGridLayout(widget);
         gridLayout->setObjectName("gridLayout");
-        nameInput = new QLineEdit(widget);
-        nameInput->setObjectName("nameInput");
-        nameInput->setMinimumSize(QSize(180, 0));
-        nameInput->setMaximumSize(QSize(260, 30));
+        classInput = new QLineEdit(widget);
+        classInput->setObjectName("classInput");
+        classInput->setMinimumSize(QSize(180, 0));
+        classInput->setMaximumSize(QSize(260, 30));
 
-        gridLayout->addWidget(nameInput, 5, 0, 1, 2);
+        gridLayout->addWidget(classInput, 5, 0, 1, 2);
 
         label_5 = new QLabel(widget);
         label_5->setObjectName("label_5");
@@ -93,12 +97,12 @@ public:
 
         gridLayout->addWidget(label_4, 9, 2, 1, 1);
 
-        classInput = new QLineEdit(widget);
-        classInput->setObjectName("classInput");
-        classInput->setMinimumSize(QSize(180, 0));
-        classInput->setMaximumSize(QSize(260, 30));
+        nameInput = new QLineEdit(widget);
+        nameInput->setObjectName("nameInput");
+        nameInput->setMinimumSize(QSize(180, 0));
+        nameInput->setMaximumSize(QSize(260, 30));
 
-        gridLayout->addWidget(classInput, 0, 0, 1, 2);
+        gridLayout->addWidget(nameInput, 0, 0, 1, 2);
 
         verticalSpacer_2 = new QSpacerItem(20, 10, QSizePolicy::Policy::Minimum, QSizePolicy::Policy::Expanding);
 
@@ -122,12 +126,12 @@ public:
 
         gridLayout->addItem(verticalSpacer_3, 8, 1, 1, 1);
 
-        numInput = new QLineEdit(widget);
-        numInput->setObjectName("numInput");
-        numInput->setMinimumSize(QSize(180, 0));
-        numInput->setMaximumSize(QSize(260, 30));
+        genInput = new QLineEdit(widget);
+        genInput->setObjectName("genInput");
+        genInput->setMinimumSize(QSize(180, 0));
+        genInput->setMaximumSize(QSize(260, 30));
 
-        gridLayout->addWidget(numInput, 7, 0, 1, 2);
+        gridLayout->addWidget(genInput, 7, 0, 1, 2);
 
         verticalSpacer = new QSpacerItem(20, 10, QSizePolicy::Policy::Minimum, QSizePolicy::Policy::Expanding);
 
@@ -173,12 +177,12 @@ public:
 
         gridLayout->addWidget(label_3, 7, 2, 1, 1);
 
-        genderInput = new QLineEdit(widget);
-        genderInput->setObjectName("genderInput");
-        genderInput->setMinimumSize(QSize(180, 0));
-        genderInput->setMaximumSize(QSize(260, 30));
+        numInput = new QLineEdit(widget);
+        numInput->setObjectName("numInput");
+        numInput->setMinimumSize(QSize(180, 0));
+        numInput->setMaximumSize(QSize(260, 30));
 
-        gridLayout->addWidget(genderInput, 2, 0, 2, 2);
+        gridLayout->addWidget(numInput, 2, 0, 2, 2);
 
         verticalSpacer_6 = new QSpacerItem(20, 10, QSizePolicy::Policy::Minimum, QSizePolicy::Policy::Expanding);
 
@@ -191,9 +195,19 @@ public:
         widget_2->setObjectName("widget_2");
         verticalLayout = new QVBoxLayout(widget_2);
         verticalLayout->setObjectName("verticalLayout");
-        verticalSpacer_7 = new QSpacerItem(20, 294, QSizePolicy::Policy::Minimum, QSizePolicy::Policy::Expanding);
+        widget_4 = new QWidget(widget_2);
+        widget_4->setObjectName("widget_4");
+        QSizePolicy sizePolicy(QSizePolicy::Policy::Fixed, QSizePolicy::Policy::Fixed);
+        sizePolicy.setHorizontalStretch(100);
+        sizePolicy.setVerticalStretch(100);
+        sizePolicy.setHeightForWidth(widget_4->sizePolicy().hasHeightForWidth());
+        widget_4->setSizePolicy(sizePolicy);
+        widget_4->setMinimumSize(QSize(220, 220));
+        widget_4->setCursor(QCursor(Qt::CursorShape::WhatsThisCursor));
+        widget_4->setStyleSheet(QString::fromUtf8("border-image: url(./assets/hebut.png);\n"
+""));
 
-        verticalLayout->addItem(verticalSpacer_7);
+        verticalLayout->addWidget(widget_4);
 
         widget_3 = new QWidget(widget_2);
         widget_3->setObjectName("widget_3");
@@ -223,6 +237,14 @@ public:
         statusbar = new QStatusBar(addStudent);
         statusbar->setObjectName("statusbar");
         addStudent->setStatusBar(statusbar);
+        QWidget::setTabOrder(nameInput, numInput);
+        QWidget::setTabOrder(numInput, classInput);
+        QWidget::setTabOrder(classInput, genInput);
+        QWidget::setTabOrder(genInput, cnInput);
+        QWidget::setTabOrder(cnInput, mathInput);
+        QWidget::setTabOrder(mathInput, engInput);
+        QWidget::setTabOrder(engInput, cancelButton);
+        QWidget::setTabOrder(cancelButton, confirmButton);
 
         retranslateUi(addStudent);
 
@@ -232,13 +254,14 @@ public:
     void retranslateUi(QMainWindow *addStudent)
     {
         addStudent->setWindowTitle(QCoreApplication::translate("addStudent", "\346\267\273\345\212\240\345\255\246\347\224\237", nullptr));
+        actionPreferences->setText(QCoreApplication::translate("addStudent", "Preferences", nullptr));
         label_5->setText(QCoreApplication::translate("addStudent", "\346\225\260\345\255\246", nullptr));
         label_4->setText(QCoreApplication::translate("addStudent", "\350\257\255\346\226\207", nullptr));
-        label_2->setText(QCoreApplication::translate("addStudent", "\345\247\223\345\220\215", nullptr));
-        label_7->setText(QCoreApplication::translate("addStudent", "\346\200\247\345\210\253", nullptr));
+        label_2->setText(QCoreApplication::translate("addStudent", "\347\217\255\347\272\247", nullptr));
+        label_7->setText(QCoreApplication::translate("addStudent", "\345\255\246\345\217\267", nullptr));
         label_6->setText(QCoreApplication::translate("addStudent", "\350\213\261\350\257\255", nullptr));
-        label->setText(QCoreApplication::translate("addStudent", "\347\217\255\347\272\247", nullptr));
-        label_3->setText(QCoreApplication::translate("addStudent", "\345\255\246\345\217\267", nullptr));
+        label->setText(QCoreApplication::translate("addStudent", "\345\247\223\345\220\215", nullptr));
+        label_3->setText(QCoreApplication::translate("addStudent", "\346\200\247\345\210\253", nullptr));
         cancelButton->setText(QCoreApplication::translate("addStudent", "\345\217\226\346\266\210", nullptr));
         confirmButton->setText(QCoreApplication::translate("addStudent", "\347\241\256\345\256\232", nullptr));
     } // retranslateUi
