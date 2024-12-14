@@ -1,4 +1,5 @@
 /.DS_Store
+build
 build/.ninja_deps
 build/.ninja_log
 build/CMakeCache.txt
