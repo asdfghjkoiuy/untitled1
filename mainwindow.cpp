@@ -27,7 +27,10 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_delButton_clicked()
 {
-    qDebug() << __FUNCTION__;
+    int currentRow = tableWidget->currentRow();
+    if(currentRow>=0){                          //如果行有效
+        tableWidget->removeRow(currentRow);     //删行，删掉某个学生的信息
+    }
 }
 void MainWindow::on_alterButton_clicked()
 {
