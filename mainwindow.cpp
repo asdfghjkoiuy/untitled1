@@ -114,6 +114,7 @@ void MainWindow::on_actionSave_Current_File_triggered()
                 if(!item) continue;
                 saveContents += item->text() + ",";
             }
+            saveContents.chop(1);                   //去掉行尾逗号
             saveContents += "\n";
         }
 
@@ -127,6 +128,7 @@ void MainWindow::on_actionSave_Current_File_triggered()
                 str.replace(","," ");            //存储的时候如果输入的有逗号，把逗号换成空格防止存储之后干扰csv逗号分隔的格式
                 saveContents += str + ",";
             }
+            saveContents.chop(1);                   //去掉行尾逗号
             saveContents += "\n";
         }
         stream << saveContents;
